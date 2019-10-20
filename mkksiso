@@ -49,5 +49,5 @@ genisoimage \
   -R -J -v -T \
   $WRKDIR
 
-sudo isohybrid --uefi "$OUTISO"
+isohybrid --uefi "$OUTISO"
 rm -rf "$WRKDIR"
